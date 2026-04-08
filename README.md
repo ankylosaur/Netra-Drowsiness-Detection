@@ -95,7 +95,4 @@ This will:
 ### Notes
 
 - If the ESP32 is not connected or the serial port cannot be opened, `netra_vision.py` will continue to run in a test mode and log what it would send instead of failing.
-- The drowsiness logic uses:
-  - `EAR_THRESHOLD = 0.25`
-  - `CONSEC_FRAMES_DROWSY = 20`
 
